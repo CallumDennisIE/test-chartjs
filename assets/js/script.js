@@ -24,3 +24,27 @@ new Chart("spending", {
     }
   }
 });
+
+var xValues = ["Spend", "Save"];
+var yValues = [55, 49];
+var barColors = [
+  "#b91d47",
+  "#00aba9"
+];
+
+new Chart("spendSave", {
+  type: "doughnut",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "Annual Spending Breakdown 2022 - 2023"
+    }
+  }
+});

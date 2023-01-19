@@ -6,12 +6,39 @@
 </head>
 
 <body>
-    <h1>Finance Calculator <i class="fa-solid fa-chart-pie"></i></h1>
-    <p>Spending: <i class="fa-solid fa-euro-sign"></i> 3,821</p>
-    <div id="container">
-        <canvas id="spending" style="width:100%;max-width:600px"></canvas>
-    </div>
-    
+
+    <header class="margin">
+        <a href="index.html">
+            <h1>Finance Calculator</h1>
+        </a>
+        <nav>
+            <ul class="navbar">
+                <a href="index.html"><li><i class="fa-solid fa-house"></i> Home</li></a>
+                <a href="index.html"><li><i class="fa-solid fa-chart-pie"></i> Graphs</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main class="margin">
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium, ex vitae pulvinar ullamcorper, turpis ante dapibus eros, a convallis mi dolor at ex. Praesent sed euismod lorem. Nulla viverra felis eget scelerisque interdum. Ut ultrices ultrices odio, eu lacinia metus sagittis quis. Maecenas feugiat dui quis dolor tempus ultricies. Duis aliquam tincidunt elit eget tempus</p>
+        </section>
+
+        <div class="center">
+            <div class="flex-container">
+                <canvas id="spending" style="width:100%;max-width:600px"></canvas>
+                <canvas id="spendSave" style="width:100%;max-width:600px"></canvas>
+            </div>
+        </div>
+
+        <section>
+            <p>Spending: &euro;3,821</p>
+            <p>Cras sed mattis erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam tempus pharetra magna, vitae mattis nisi tempus id. Sed aliquam ipsum non sapien ultricies elementum eu eu quam. Ut interdum lorem vitae ipsum ultrices, sit amet mollis enim ultrices. Aliquam libero lorem, iaculis vitae ultrices et, lobortis id urna. Nullam tincidunt pellentesque lorem id laoreet. Etiam volutpat in erat non iaculis.</p>
+            <p>Donec euismod sem sed ante pellentesque volutpat. Nam risus dui, egestas ut hendrerit ac, elementum sodales lorem. Morbi finibus condimentum lacus, iaculis porta sapien viverra id. Maecenas consectetur libero at urna vulputate luctus. Duis ut sodales eros. Donec ultricies, mi sed tristique feugiat, nibh nisl hendrerit enim, non placerat diam neque sed sapien. In et purus lacus. Morbi finibus eget lacus id commodo. Cras vitae tempor tortor, vel pulvinar elit. Etiam in dapibus sem. Etiam sit amet efficitur purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </section>
+    </main>
+
+
+
     <script src="https://kit.fontawesome.com/c6b0aa680a.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <script src="assets/js/script.js"></script>

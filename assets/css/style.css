@@ -45,3 +45,32 @@ header {
 header a:hover {
     text-decoration: underline;
 }
+
+/* Standard positional styling for flex containers */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+/* Standard styling for flex items */
+.flex-item {
+    padding: 10px;
+    background-color: lightgray;
+    /* Adds a black box-shadow */
+    box-shadow: 5px 5px 5px black;
+    /* Rounds corners of the flex-items */
+    border-radius: 20px;
+}
+
+#form-container {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}

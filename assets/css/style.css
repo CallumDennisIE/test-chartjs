@@ -15,11 +15,15 @@
     margin-right: 10%;
 }
 
-ul {
+header ul {
     list-style-type: none;
 }
 
-a {
+ul {
+    list-style-position: inside;
+}
+
+header a {
     text-decoration: none;
     color:black;
 }

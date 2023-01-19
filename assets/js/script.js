@@ -44,7 +44,7 @@ new Chart("spendSave", {
   options: {
     title: {
       display: true,
-      text: "Annual Spending Breakdown 2022 - 2023"
+      text: "Ammount Spent vs Saved"
     }
   }
 });
